@@ -1,58 +1,30 @@
 Colourbleed::Application.routes.draw do
-  # The priority is based upon order of creation:
-  # first created -> highest priority.
 
-  # Sample of regular route:
-  #   match 'products/:id' => 'catalog#view'
-  # Keep in mind you can assign values other than :controller and :action
 
-  # Sample of named route:
-  #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
-  # This route can be invoked with purchase_url(:id => product.id)
+  get "pages/home"
 
-  # Sample resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
+  get "pages/trailer"
 
-  # Sample resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
-  #
-  #     collection do
-  #       get 'sold'
-  #     end
-  #   end
+  get "pages/story"
 
-  # Sample resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
+  get "pages/gallery"
 
-  # Sample resource route with more complex sub-resources
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', :on => :collection
-  #     end
-  #   end
+  get "pages/cast_crew"
 
-  # Sample resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
+  get "pages/behind_the_scenes"
 
-  # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  get "pages/press"
 
-  # See how all your routes lay out with "rake routes"
+  get "pages/contact"
 
-  # This is a legacy wild controller route that's not recommended for RESTful applications.
-  # Note: This route will make all actions in every controller accessible via GET requests.
-  # match ':controller(/:action(/:id(.:format)))'
+  root :to => "pages#home"
+
+  match '/trailer',             :to => 'pages#trailer'
+  match '/story',               :to => 'pages#story'
+  match '/gallery',             :to => 'pages#gallery'
+  match '/cast-crew',           :to => 'pages#cast_crew'
+  match '/behind-the-scenes',   :to => 'pages#behind_the_scenes'
+  match '/press',               :to => 'pages#press'
+  match '/contact',             :to => 'pages#contact'
+
 end
