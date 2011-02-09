@@ -5,19 +5,19 @@ class PagesController < ApplicationController
   def trailer
   end
 
-  def story
+  def news
   end
 
   def gallery
   end
 
-  def cast_crew
+  def talent
   end
 
-  def behind_the_scenes
+  def production_notes
   end
 
-  def press
+  def press_kit
   end
 
   def contact
