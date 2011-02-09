@@ -1,6 +1,5 @@
 Colourbleed::Application.routes.draw do
 
-
   root :to => "pages#home"
 
   match '/trailer',             :to => 'pages#trailer'
@@ -10,5 +9,4 @@ Colourbleed::Application.routes.draw do
   match '/behind_the_scenes',   :to => 'pages#behind_the_scenes'
   match '/press',               :to => 'pages#press'
   match '/contact',             :to => 'pages#contact'
-
 end
