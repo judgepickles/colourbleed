@@ -21,13 +21,16 @@
             <div id="header">
             </div>
             <div id="content_container" class="home">
+                
                 <div id="main_nav_container">
                     <div id="main_nav">
                         <ul>
                             <%= render 'layouts/links' %>
                         </ul>
                     </div>
-                  <%= yield %>
+                    <div id="body_text" class="home_text">
+                        <%= yield %>
+                    </div>
                 </div>
                 <div class="clear"></div>
             </div>
