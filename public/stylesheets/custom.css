@@ -39,18 +39,32 @@ nav ul {
   padding: 0.2em 0;
 }
 */
-
+li#trailer_btn{
+  
+}
 
 #trailer {
   height: 300%;
+  width: 120%;
 }
 
 
+#trailer_link{
+	padding: 130px 0 0 60px;
+	float: left;
+	text-align: center;
+	font-style: italic;
+}
+#trailer_button{
+  background-image: url(/images/video-play-button.png);
+	padding: 100px 110px 0 0;
+	float: right;
+}
 
 
 /*RIPPER*/
 body {
-	background-color: #3d2804;
+	background-color: #000;
 	font-family: "Gill Sans MT", "Gill Sans", Verdana, Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-size-adjust: none;
@@ -145,17 +159,17 @@ li.news_link{
 	padding: 0 0 40px 0;
 }
 #content_container.home{
-	background-image: url(/images/forest-bg-dark.jpg);
+	background-image: url(/images/dripBirdBG.jpg);
 }
 #content_container.video{
-	background-image: url(/images/forest-bg-light.jpg);
+	background-image: url(/images/dripBirdBG.jpg);
 	padding: 0 0 10px 0;
 }
 #content_container.story{
-	background-image: url(/images/forest-bg-story.jpg);
+	background-image: url(/images/dripBirdBG.jpg);
 }
 #content_container.forest_bg_light{
-	background-image: url(/images/forest-bg-light.jpg);
+	background-image: url(/images/dripBirdBG.jpg);
 }
 .origin{
 	font-weight: bold;
@@ -174,6 +188,7 @@ p.home{
 }
 #body_text.home_text{
 	padding-top: 35px;
+	width: 145%;
 }
 #body_text.cast_text a, a:link, a:visited, a:hover {
 	border-style: none none dotted none;
@@ -217,17 +232,6 @@ p.home{
 }
 #body_text a, a:link, a:visited, a:hover {
 	font-size: 100%;
-}
-
-#trailer_link{
-	padding: 130px 0 0 60px;
-	float: left;
-	text-align: center;
-	font-style: italic;
-}
-#trailer_button{
-	padding: 100px 110px 0 0;
-	float: right;
 }
 #trailer_link a, a:link, a:visited, a:hover {
 	font-size: 200%;
@@ -466,7 +470,3 @@ p.promo_short_page{
 	color: #c25c52;
 	font-size: 110%;
 }
-
-/*background-image: url(http://www.originshortfilm.co.uk/images/footer-bg.gif);
-height: 120px;
-width: 940px;*/
