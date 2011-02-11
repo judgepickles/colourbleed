@@ -1,0 +1,14 @@
+!!! 5
+%html{:xmlns => "http:://www.w3.org/1999/xhtml", :lang => "en"}
+  %head
+    %title= yield(:title) || "Colourbleed | \"The price you pay for a brighter day\""
+    = stylesheet_link_tag "screen"
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+  %body
+    / = debug(params)
+    #header This is the header
+    #page_container
+      %ul#navigation= render :partial => "navigation/link", :collection => nav_nodes
+      #main_content= yield
+    #footer This is the footer

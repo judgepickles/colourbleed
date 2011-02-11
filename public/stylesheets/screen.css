@@ -1,0 +1,67 @@
+html, body {
+  background: #000;
+  width:  100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #FFF;
+  background:#000 url(/images/dripBirdBG.jpg) bottom left no-repeat;
+}
+
+#header {
+  height: 90px;
+}
+
+ul#navigation {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 100%;
+  background: #78587b;
+}
+
+ul#navigation li {
+  /*list-style: disc;*/
+  list-style:none;
+  float: left;
+  padding-left: 4px;
+}
+
+ul#navigation a {
+  color: #fff;
+}
+
+#page_container {
+  width: 740px;
+}
+
+#main_content {
+  padding: 18px 20px;
+}
+
+#footer {
+  height: 90px;
+  /*background: #78587b;*/
+}
+
+
+/*Pages*/
+
+.heading {
+  font-size: 130%;
+  text-align: center;
+}
+.headline {
+  font-size: 110%;
+}
+.credits {
+  font-size: 75%;
+}
+
+
+.credit_title {
+  font-size: 110%;
+}

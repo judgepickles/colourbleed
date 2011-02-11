@@ -1,9 +1,11 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
-gem 'gravatar_image_tag', '0.1.0'
+# gem 'gravatar_image_tag', '0.1.0'
 gem 'will_paginate', '3.0.pre2'
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
+gem 'jquery-rails'
+gem 'haml'
 
 group :development do
   gem 'rspec-rails', '2.1.0'
