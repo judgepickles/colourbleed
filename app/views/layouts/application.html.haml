@@ -4,7 +4,7 @@
     / %title= yield(:title) || "Colourbleed | \"The price you pay for a brighter day\""
     %title= "Colourbleed | \"The price you pay for a brighter day\""
     = stylesheet_link_tag "screen"
-    = javascript_include_tag :defaults
+    = javascript_include_tag :defaults, "jquery.livequery", "roll_credits"
     = csrf_meta_tag
   %body
     #page_container

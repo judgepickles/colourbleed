@@ -179,3 +179,12 @@ a:hover {
 .hot-pink {
   color: #f3c;
 }
+
+#pause {
+  background:transparent url(/images/pause.png) center center no-repeat;
+  width:64px;
+  height:64px;
+  position:fixed;
+  bottom:9px;
+  right:10px;
+}
