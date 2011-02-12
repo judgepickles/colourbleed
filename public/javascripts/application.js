@@ -1,17 +1,40 @@
-// if (history && history.pushState) {
-//   $(function() {
-//     $("li#trailer_btn").live("click", function(e){
-//       $
-//     });
-//   });
-// }
-
-// if (history && history.pushState) {
-  // simple way to make a link into an ajax link
-
+if (history && history.pushState) {
   $(function() {
+    var clickHandler = function(link) {
+      link.unbind("click.colourbleed");
+      var href = link.attr("href");
+      $.ajax({
+        url: href,
+        dataType: "html",
+        success: function(data) {
+          $("div#main_content").html(data);
+          var title = $("h1").text() + " – Colourbleed";
+          history.pushState(null, title, href);
+          // alert(data);
+        },
+        complete: function() {
+          link.bind("click.colourbleed", function(event) {
+            clickHandler(link);
+            return false;
+          });
+        }
+      });
+    };
+
+    $("ul#navigation li a").bind("click.colourbleed", function(event) {
+      clickHandler($(this));
+      return false;
+    });
     
-
-  });)  
-
-// }
+    $(window).bind("popstate.colourbleed", function() {
+      $.ajax({
+        url: location.href,
+        dataType: "html",
+        success: function(data) {
+          var main_content = $("div#main_content");
+          main_content.html(data);
+        }
+      }); // ajax
+    }); // window bind
+  });
+};
