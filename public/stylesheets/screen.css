@@ -166,6 +166,10 @@ a:hover {
 .credits {
   font-size: 75%;
 }
+#home.credits {
+  font-size: 75%;
+  text-align: center;
+}
 
 .credit_title {
   font-size: 110%;
