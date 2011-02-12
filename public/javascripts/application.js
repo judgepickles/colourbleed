@@ -19,7 +19,7 @@ if (history && history.pushState) {
         }
       });
     };
-
+    
     $("ul#navigation li a").bind("click.colourbleed", function(event) {
       clickHandler($(this));
       return false;

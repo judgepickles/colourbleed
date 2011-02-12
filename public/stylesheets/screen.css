@@ -1,3 +1,15 @@
+/*
+Mine:
+blue  #3cf
+pink  #f3c
+
+Pete's:
+blue  #003a70
+green #005959
+pink  #671956
+red   #700005
+*/
+
 html, body {
   background:#000;
   width:  100%;
@@ -108,8 +120,8 @@ ul#navigation a:hover {
 /*Pages*/
 h1 {
   font-weight: normal;
-  color:#3cf;
-  background:#222;
+  color: #3cf;
+  background:#111;
   border-width: 0;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -157,6 +169,10 @@ a:hover {
 
 .credit_title {
   font-size: 110%;
+}
+
+#contact {
+  margin:16px;
 }
 
 #decoration {
