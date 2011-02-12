@@ -2,6 +2,8 @@
   $.fn.rollCredits = function() {
     // Globals
     var interval = 50;
+    var distance = 1;
+
     var wrapper = $(this);
     var credits = $("div#credits", wrapper);
     var credits_height = parseInt(credits.height());
@@ -25,7 +27,7 @@
           var windowHeight = $(window).height();
           return (scrollTop + windowHeight - 200) + "px";
         } else {
-          return (current_margin - 2) + "px";
+          return (current_margin - distance) + "px";
         }
       });
     }
