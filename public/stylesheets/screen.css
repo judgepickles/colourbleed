@@ -202,9 +202,14 @@ a:hover {
 
 #hummingbird_treatment h2.title {
   color: #3cf;
-/*  text-align: center;*/
   font-weight: normal;
   font-size: 140%;
+}
+
+p.ht {
+  margin:16px;
+  padding: 0 0 3px 9px;
+  font-size: 90%;
 }
 
 #hummingbird_treatment p.ht {
@@ -215,7 +220,6 @@ a:hover {
   text-align: center;
 }
 
-
 #hummingbird_board p.ht {
   margin:16px;
   font-size: 90%;
@@ -223,7 +227,6 @@ a:hover {
 
 #hummingbird_board h2.title {
   color: #3cf;
-/*  text-align: center;*/
   margin:16px;
   font-weight: normal;
   font-size: 140%;
