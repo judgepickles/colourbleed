@@ -3,11 +3,6 @@ Mine:
 blue  #3cf
 pink  #f3c
 
-Pete's:
-blue  #003a70
-green #005959
-pink  #671956
-red   #700005
 */
 
 html, body {
@@ -41,15 +36,17 @@ body {
   font-size:1.6em;
   color:#f3c;
   background: #333;
-  margin: 10px 0 -20px;
-  padding:9px 10px 40px;
-  background: transparent url(/images/header_background.png) right top no-repeat;
+  margin: 10px 0 0;
+  padding:9px 10px 5px;
+  height: 205px;
+  /*background: transparent url(/images/header_background.png) right top no-repeat;*/
+  background: transparent url(/images/banner.jpg) right top no-repeat;
 }
 
 ul#navigation {
   margin: 2;
   padding: 1;
-  height: 40px;
+  height: 20px;
   width: 100%;
 }
 
@@ -80,10 +77,6 @@ ul#navigation a:hover {
 #main_content {
   padding: 18px 40px;
   position:relative;
-}
-
-#footer {
-  clear: both;
 }
 
 .rounded {
@@ -117,6 +110,17 @@ ul#navigation a:hover {
   -khtml-border-radius: 15px;
 }
 
+
+#footer {
+  position:fixed;
+  bottom:0;
+  width:900px;
+  height:84px;
+  z-index:10;
+  padding: 9px 10px 40px;
+  background: transparent url(/images/footer_background.png) left bottom no-repeat;
+}
+
 /*Pages*/
 h1 {
   font-weight: normal;
@@ -139,6 +143,10 @@ a {
 a:hover {
   background:#000;
   color:#3cf;
+}
+
+#gallery {
+  
 }
 
 #trailer {
@@ -218,7 +226,7 @@ a:hover {
   bottom:0;
   left:0;
   width:940px;
-  height:564px;
+  height:764px;
   z-index:1;
 }
 
