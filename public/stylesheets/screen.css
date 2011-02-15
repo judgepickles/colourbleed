@@ -46,7 +46,7 @@ body {
 ul#navigation {
   margin: 2;
   padding: 1;
-  height: 20px;
+  height: 8px;
   width: 100%;
 }
 
@@ -75,7 +75,7 @@ ul#navigation a:hover {
 }
 
 #main_content {
-  padding: 18px 40px;
+  padding: 12px 40px 40px 18px;
   position:relative;
 }
 
@@ -109,7 +109,6 @@ ul#navigation a:hover {
   -webkit-border-bottom-left-radius: 15px;
   -khtml-border-radius: 15px;
 }
-
 
 #footer {
   position:fixed;

@@ -7,6 +7,7 @@ if (history && history.pushState) {
         url: href,
         dataType: "html",
         success: function(data) {
+          console.log(data);
           $("div#main_content").html(data);
           var title = $("h1").text() + " – Colourbleed";
           history.pushState(null, title, href);
