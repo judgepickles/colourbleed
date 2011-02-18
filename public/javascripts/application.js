@@ -3,11 +3,12 @@ if (history && history.pushState) {
     var clickHandler = function(link) {
       link.unbind("click.colourbleed");
       var href = link.attr("href");
+      console.log(data);
       $.ajax({
         url: href,
         dataType: "html",
         success: function(data) {
-          console.log(data);
+          // console.log(data);
           $("div#main_content").html(data);
           var title = $("h1").text() + " – Colourbleed";
           history.pushState(null, title, href);
