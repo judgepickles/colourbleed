@@ -150,6 +150,11 @@ a:hover {
   padding: 0 0 10px 0;
 }
 
+#pnotes ul li {
+  padding: 2px 0;
+}
+
+
 #pdfs {
   padding: 0 0 40px 0;
 }
