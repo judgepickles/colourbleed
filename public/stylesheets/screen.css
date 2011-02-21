@@ -218,6 +218,11 @@ p.ht {
   font-size: 90%;
 }
 
+
+p.news {
+  padding: 0 0 0 10px;
+}
+
 #hummingbird_treatment p.ht {
   margin:16px;
   font-size: 90%;
