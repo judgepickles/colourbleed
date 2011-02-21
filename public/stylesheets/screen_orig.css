@@ -1,0 +1,265 @@
+/*
+Mine:
+blue  #3cf
+pink  #f3c
+
+*/
+
+html, body {
+  background:#000;
+  width:  100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+body {
+  position:relative;
+}
+
+#page_container {
+  color:#eee;
+  position:relative;
+  background-position: center top;
+  background-repeat: repeat-y;
+  margin: 0 auto;
+  min-height: 100%;
+  padding: 0;
+  width: 873px;
+  z-index:2;
+  background: transparent url(/images/page_background.png);
+}
+
+#header {
+  width:100%;
+  font-size:1.6em;
+  color:#f3c;
+  background: #333;
+  margin: 5px 0 0;
+  padding:4px 10px 9px;
+  height: 205px;
+  /*background: transparent url(/images/header_background.png) right top no-repeat;*/
+  background: transparent url(/images/banner.png) right top no-repeat;
+}
+
+ul#navigation {
+  margin: 2;
+  margin-top: 8px;
+  padding: 1;
+  height: 6px;
+  width: 100%;
+}
+
+
+ul#navigation li {
+  list-style:none;
+  float: left;
+  padding-right: 25px;
+}
+
+ul#navigation a {
+  color: #fff;
+  background:#222;
+  text-decoration: none;
+  padding:5px 10px;
+  border-width: 0;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+}
+
+ul#navigation a:hover {
+  color: #3cf;
+  background:transparent;
+}
+
+#main_content {
+  padding: 18px 40px;
+  position:relative;
+}
+
+.rounded {
+  border-style: solid;
+  border-width: 0;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -khtml-border-radius: 15px;
+}
+
+.rounded_top {
+  border-style: solid;
+  border-width: 0;
+  border-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  -moz-border-radius-topleft: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -khtml-border-radius: 15px;
+}
+
+.rounded_bottom {
+  border-style: solid;
+  border-width: 0;
+  border-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -khtml-border-radius: 15px;
+}
+
+
+#footer {
+  position:fixed;
+  bottom:0;
+  width:880px;
+  height:40px;
+  z-index:10;
+  padding: 9px 10px;
+  background: transparent url(/images/footer_background.png) left bottom no-repeat;
+}
+
+/*Pages*/
+h1 {
+  font-weight: normal;
+  color: #3cf;
+  background:#111;
+  border-width: 0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  padding: 4px 10px 5px;
+  margin:0 0 16px;
+}
+
+a {
+  color: #f3c;
+  padding: 5px 2px;
+}
+
+a:hover {
+  background:#000;
+  color:#3cf;
+}
+
+#pnotes {
+  padding: 0 0 10px 0;
+}
+
+#pdfs {
+  padding: 0 0 40px 0;
+}
+
+
+#gallery {
+  padding: 0 0 40px 0;
+}
+
+#trailer {
+  margin:0 auto;
+  padding: 0 0 40px 0;
+  width: 400px;
+}
+
+#trailer p {
+  text-align: center;
+}
+
+#talent {
+  overflow:hidden;
+  margin:-36px 0 0;
+}
+
+#credits {
+  text-align: center;
+  margin:0;
+}
+
+.headline {
+  font-size: 110%;
+}
+.credits {
+  font-size: 75%;
+}
+#home.credits {
+  font-size: 75%;
+  text-align: center;
+}
+
+.credit_title {
+  font-size: 110%;
+}
+
+#contact {
+  margin:16px;
+}
+#contact a {
+  text-decoration: none;
+}
+
+#hummingbird_treatment h2.title {
+  color: #3cf;
+  font-weight: normal;
+  font-size: 140%;
+}
+
+p.ht {
+  margin:16px;
+  padding: 0 0 3px 9px;
+  font-size: 90%;
+}
+
+#hummingbird_treatment p.ht {
+  margin:16px;
+  font-size: 90%;
+}
+#hummingbird_treatment img {
+  text-align: center;
+}
+
+#hummingbird_board p.ht {
+  margin:16px;
+  font-size: 90%;
+}
+
+#hummingbird_board h2.title {
+  color: #3cf;
+  margin:16px;
+  font-weight: normal;
+  font-size: 140%;
+}
+
+
+#decoration {
+  background:#000 url(/images/dripBirdBG.jpg) bottom left no-repeat;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:940px;
+  height:764px;
+  z-index:1;
+}
+
+.clearfix {
+  clear: both;
+  width: 100%;
+  display: block;
+  height: 1px;
+}
+
+.hot-pink {
+  color: #f3c;
+}
+
+#pause {
+  background:transparent url(/images/pause.png) center center no-repeat;
+  width:64px;
+  height:64px;
+  position:fixed;
+  bottom:9px;
+  right:10px;
+}
