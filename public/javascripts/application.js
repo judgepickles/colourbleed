@@ -3,7 +3,7 @@ if (history && history.pushState) {
     var clickHandler = function(link) {
       link.unbind("click.colourbleed");
       var href = link.attr("href");
-      console.log(data);
+      //console.log(data);
       $.ajax({
         url: href,
         dataType: "html",
