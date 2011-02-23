@@ -38,9 +38,9 @@ body {
   background: #333;
   margin: 5px 0 0;
   padding:4px 10px 9px;
-  height: 205px;
+  height: 158px;
   /*background: transparent url(/images/header_background.png) right top no-repeat;*/
-  background: transparent url(/images/banner.png) right top no-repeat;
+  background: transparent url(/images/banner_sm.png) right top no-repeat;
 }
 
 ul#navigation {
