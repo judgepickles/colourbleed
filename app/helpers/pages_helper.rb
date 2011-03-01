@@ -12,7 +12,19 @@ module PagesHelper
     ]
   end
   
-  def title value
-    content_for :title, (value || "Colourbleed | \"The price you pay for a brighter day\"")
+  # def title value
+  #   content_for :title, (value || "Colourbleed | \"The price you pay for a brighter day\"")
+  # end
+  
+  def title
+    base_title = "Colourbleed | \"The price you pay for a brighter day\""
+    if @title.nil?
+      base_title
+    else
+      " #{@title} | #{base_title}"
+    end
   end
+  
+  
+  
 end

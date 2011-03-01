@@ -2,7 +2,7 @@
 %html{:xmlns => "http:://www.w3.org/1999/xhtml", :lang => "en"}
   %head
     /%title= yield(:title) || "Colourbleed | \"The price you pay for a brighter day\""
-    %title= "Colourbleed | \"A Short Film by Peter Szewczyk\""
+    %title= title
     = stylesheet_link_tag "screen"
     = javascript_include_tag :defaults, "jquery.livequery", "roll_credits"
     = csrf_meta_tag
@@ -12,4 +12,5 @@
       %ul#navigation= render :partial => "navigation/link", :collection => nav_nodes
       #main_content= yield
       #footer
+      / #footer.fontface development & design by: gdgt productions
     #decoration

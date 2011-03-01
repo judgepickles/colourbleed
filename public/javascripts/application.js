@@ -27,6 +27,7 @@ if (history && history.pushState) {
       return false;
     });
 
+    //enable back button links 
     $(window).bind("popstate.colourbleed", function() {
       $.ajax({
         url: location.href,

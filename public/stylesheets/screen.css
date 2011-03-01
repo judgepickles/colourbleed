@@ -4,6 +4,17 @@ blue  #3cf
 pink  #f3c
 
 */
+@font-face {
+    font-family: 'LouisianneRegular';
+    src: url(/images/fonts/Louisianne-webfont.eot);
+    src: url(/images/fonts/Louisianne-webfont.eot?iefix) format('eot'),
+         url(/images/fonts/Louisianne-webfont.woff) format('woff'),
+         url(/images/fonts/Louisianne-webfont.ttf) format('truetype'),
+         url(/images/fonts/Louisianne-webfont.svg#webfontn3TMckQu) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html, body {
   background:#000;
@@ -120,6 +131,8 @@ ul#navigation a:hover {
   z-index:10;
   padding: 9px 10px;
   background: transparent url(/images/footer_background.png) left bottom no-repeat;
+  letter-spacing: 0;
+  padding-bottom: 1px;
 }
 
 /*Pages*/
@@ -273,3 +286,9 @@ p.news {
   bottom:9px;
   right:10px;
 }
+
+.fontface {
+  font: 14px/12px 'LouisianneRegular', Arial, sans-serif;
+  letter-spacing: 0;
+  color: #f3c;
+  }
