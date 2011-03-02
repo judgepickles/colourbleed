@@ -86,6 +86,19 @@ ul#navigation a:hover {
   background:transparent;
 }
 
+div#pnotes ul li{
+  background: #000;
+}
+
+div#pnotes ul li:hover{
+  color: #3cf;
+  background: #000;
+}
+
+div#main_content p{
+  background: #000;
+}
+
 #main_content {
   padding: 18px 40px;
   position:relative;
@@ -190,11 +203,16 @@ a:hover {
 #talent {
   overflow:hidden;
   margin:-36px 0 0;
+  background:none;
+}
+div#main_content div#talent div#credits p#credit_title {
+  background:none;
 }
 
 #credits {
   text-align: center;
   margin:0;
+  background:none;
 }
 
 .headline {
@@ -202,14 +220,20 @@ a:hover {
 }
 .credits {
   font-size: 90%;
+  background:none;
 }
 #home.credits {
   font-size: 75%;
   text-align: center;
 }
 
-.credit_title {
+#credit_title p{
   font-size: 110%;
+  background:none;
+}
+
+p.news:hover {
+  color: #3cf;
 }
 
 #contact {
@@ -229,6 +253,7 @@ p.ht {
   margin:16px;
   padding: 0 0 3px 9px;
   font-size: 90%;
+  width: 230px;
 }
 
 

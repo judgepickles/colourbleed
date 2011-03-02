@@ -10,9 +10,8 @@
     var pause = $("<div id=\"pause\"></div>");
     pause.hide();
     pause.appendTo("div#page_container");
-
+    
     // var h1 = $("h1");
-
     wrapper.css("height", credits_height + "px");
 
     function updateMargin(div) {
