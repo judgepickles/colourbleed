@@ -49,17 +49,21 @@ $("div#talent").livequery(function() {
   $(this).rollCredits();
 });
 
+                                // gallery 
+                                
+//thumbnails
 var animation_speed = 250;
-var starting_opacity = 0.5;
+var starting_opacity = 0.6;
 
 $('ul#gallery li a').live('mouseover mouseout', function(event) {
   if (event.type == 'mouseover') {
-    $(this).stop().animate({opacity:1.0}, animation_speed);
+    $(this).stop().animate({opacity:1.8}, animation_speed);
   } else {
     $(this).stop().animate({opacity:starting_opacity}, animation_speed);
   }
 });
 
+//show linked image
 $('ul#gallery li a').live('click', function(event) {
   $("img#full_image").attr("src", $(this).attr("href"));
   return false;

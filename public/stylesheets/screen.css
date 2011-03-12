@@ -13,7 +13,6 @@ pink  #f3c
          url(/images/fonts/Louisianne-webfont.svg#webfontn3TMckQu) format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 html, body {
@@ -51,7 +50,7 @@ body {
   padding:4px 10px 9px;
   height: 158px;
   /*background: transparent url(/images/header_background.png) right top no-repeat;*/
-  background: transparent url(/images/banner_sm.png) right top no-repeat;
+  background: transparent url(/images/banner_sm2.png) right top no-repeat;
 }
 
 ul#navigation {
@@ -283,7 +282,7 @@ p.news {
 
 
 #decoration {
-  background:#000 url(/images/dripBirdBG.jpg) bottom left no-repeat;
+  background:#000 url(/images/dripBirdBG_2.jpg) bottom left no-repeat;
   position:fixed;
   bottom:0;
   left:0;
