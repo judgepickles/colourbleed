@@ -317,3 +317,30 @@ p.news {
   letter-spacing: 0;
   color: #f3c;
   }
+  
+
+/* Gallery */
+div.clearfix {
+  clear:both;
+  width:100%;
+  height:1px;
+}
+ul#gallery * {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: 0;
+}
+ul#gallery li{
+  list-style: none;
+  float: left;
+  background: #000;
+  height: 47px;
+  width: 75px;
+  margin: 0 0 5px 5px;
+  border: 1px solid #3cf;
+}
+img#full_image {
+  border:1px solid #333;
+  margin: 20px 0;
+}
