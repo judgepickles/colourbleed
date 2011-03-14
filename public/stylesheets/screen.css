@@ -85,6 +85,7 @@ ul#navigation a:hover {
   background:transparent;
 }
 
+
 div#pnotes ul li{
   background: #000;
 }
@@ -282,7 +283,8 @@ p.news {
 
 
 #decoration {
-  background:#000 url(/images/dripBirdBG_2.jpg) bottom left no-repeat;
+  background:#000 url(/images/dripBirdBG_2.jpg) bottom center no-repeat;
+  /*background:#000 url(/images/bkrnd.jpg) bottom right no-repeat;*/
   position:fixed;
   bottom:0;
   left:0;

@@ -3,11 +3,6 @@ if (history && history.pushState) {
     var clickHandler = function(link) {
       link.unbind("click.colourbleed");
       var href = link.attr("href");
-      //console.log(data);
-      //console.log(href);
-      // console.dir(href);
-      //console.debug(data);
-      // console.count([title]);
       $.ajax({
         url: href,
         dataType: "html",
@@ -40,14 +35,16 @@ if (history && history.pushState) {
           var main_content = $("div#main_content");
           main_content.html(data);
         }
-      }); // ajax
+      }); 
     }); // window bind
-  });
-};
+  }); //dom ready
+}; //history.pushState
 
 $("div#talent").livequery(function() {
   $(this).rollCredits();
 });
+
+
 
                                 // gallery 
                                 
@@ -63,12 +60,6 @@ $('ul#gallery li a').live('mouseover mouseout', function(event) {
   }
 });
 
-//show linked image
-$('ul#gallery li a').live('click', function(event) {
-  $("img#full_image").attr("src", $(this).attr("href"));
-  return false;
-});
-
 $('ul#gallery li a').livequery(function() {
   $(this).css("opacity", starting_opacity);
 });
@@ -76,3 +67,11 @@ $('ul#gallery li a').livequery(function() {
 $('ul#gallery li a:first').livequery(function() {
   $(this).click();
 });
+
+
+//show linked image
+$('ul#gallery li a').live('click', function(event) {
+  $("img#full_image").attr("src", $(this).attr("href"));
+  return false;
+});
+
