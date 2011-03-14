@@ -140,7 +140,7 @@ div#main_content p{
   position:fixed;
   bottom:0;
   width:880px;
-  height:40px;
+  height:50px;
   z-index:10;
   padding: 9px 10px;
   background: transparent url(/images/footer_background.png) left bottom no-repeat;
@@ -283,12 +283,12 @@ p.news {
 
 
 #decoration {
-  background:#000 url(/images/dripBirdBG_2.jpg) bottom right no-repeat;
+  background:#000 url(/images/dripBirdBG_2.jpg) bottom center no-repeat;
   /*background:#000 url(/images/bkrnd.jpg) bottom right no-repeat;*/
   position:fixed;
   bottom:0;
   left:0;
-  width:1200px;
+  width:1260px;
   height:764px;
   z-index:1;
 }
