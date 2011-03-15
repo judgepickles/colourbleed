@@ -48,9 +48,10 @@ body {
   background: #333;
   margin: 5px 0 0;
   padding:4px 10px 9px;
-  height: 158px;
+  height: 217px;
   /*background: transparent url(/images/header_background.png) right top no-repeat;*/
-  background: transparent url(/images/banner_sm2.png) right top no-repeat;
+  /*background: transparent url(/images/banner_sm2.png) right top no-repeat;*/
+  background: transparent url(/images/banner_sm6.png) right top no-repeat;
 }
 
 ul#navigation {
@@ -283,7 +284,8 @@ p.news {
 
 
 #decoration {
-  background:#000 url(/images/dripBirdBG_2.jpg) bottom center no-repeat;
+  background:#000 url(/images/bird_v03.jpg) bottom center no-repeat;
+  /*background:#000 url(/images/dripBirdBG_2.jpg) bottom center no-repeat;*/
   /*background:#000 url(/images/bkrnd.jpg) bottom right no-repeat;*/
   position:fixed;
   bottom:0;
