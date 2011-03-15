@@ -10,7 +10,15 @@ pink  #f3c
 #099    aqua
 003399  purple blu
 663399  purple
-#900*/
+
+
+990000
+009999
+003399
+663399
+
+
+*/
 
 @font-face {
     font-family: 'LouisianneRegular';
@@ -90,7 +98,7 @@ ul#navigation a {
 }
 
 ul#navigation a:hover {
-  color: #099;
+  color: #900;
   background:transparent;
 }
 
@@ -100,7 +108,7 @@ div#pnotes ul li{
 }
 
 div#pnotes ul li:hover{
-  color: #099;
+  color: #900;
   background: #000;
 }
 
@@ -160,7 +168,7 @@ div#main_content p{
 /*Pages*/
 h1 {
   font-weight: normal;
-  color: #099;
+  color: #900;
   background:#111;
   border-width: 0;
   border-radius: 5px;
@@ -178,7 +186,7 @@ a {
 
 a:hover {
   background:#000;
-  color:#099;
+  color:#900;
 }
 
 #pnotes {
@@ -242,7 +250,7 @@ div#main_content div#talent div#credits p#credit_title {
 }
 
 p.news:hover {
-  color: #099;
+  color: #900;
 }
 
 #contact {
@@ -253,7 +261,7 @@ p.news:hover {
 }
 
 #hummingbird_treatment h2.title {
-  color: #099;
+  color: #900;
   font-weight: normal;
   font-size: 140%;
 }
@@ -284,7 +292,7 @@ p.news {
 }
 
 #hummingbird_board h2.title {
-  color: #099;
+  color: #900;
   margin:16px;
   font-weight: normal;
   font-size: 140%;
@@ -349,7 +357,7 @@ ul#gallery li{
   height: 47px;
   width: 75px;
   margin: 0 0 5px 5px;
-  border: 1px solid #099;
+  border: 1px solid #900;
 }
 img#full_image {
   border:1px solid #333;
