@@ -1,9 +1,17 @@
+/*color palette*/
 /*
 Mine:
 blue  #3cf
 pink  #f3c
-
 */
+
+/*
+990000  red
+#099    aqua
+003399  purple blu
+663399  purple
+#900*/
+
 @font-face {
     font-family: 'LouisianneRegular';
     src: url(/images/fonts/Louisianne-webfont.eot);
@@ -44,7 +52,7 @@ body {
 #header {
   width:100%;
   font-size:1.6em;
-  color:#f3c;
+  color:#900;
   background: #333;
   margin: 5px 0 0;
   padding:4px 10px 9px;
@@ -82,7 +90,7 @@ ul#navigation a {
 }
 
 ul#navigation a:hover {
-  color: #3cf;
+  color: #099;
   background:transparent;
 }
 
@@ -92,7 +100,7 @@ div#pnotes ul li{
 }
 
 div#pnotes ul li:hover{
-  color: #3cf;
+  color: #099;
   background: #000;
 }
 
@@ -152,7 +160,7 @@ div#main_content p{
 /*Pages*/
 h1 {
   font-weight: normal;
-  color: #3cf;
+  color: #099;
   background:#111;
   border-width: 0;
   border-radius: 5px;
@@ -164,13 +172,13 @@ h1 {
 }
 
 a {
-  color: #f3c;
+  color: #900;
   padding: 5px 2px;
 }
 
 a:hover {
   background:#000;
-  color:#3cf;
+  color:#099;
 }
 
 #pnotes {
@@ -234,7 +242,7 @@ div#main_content div#talent div#credits p#credit_title {
 }
 
 p.news:hover {
-  color: #3cf;
+  color: #099;
 }
 
 #contact {
@@ -245,7 +253,7 @@ p.news:hover {
 }
 
 #hummingbird_treatment h2.title {
-  color: #3cf;
+  color: #099;
   font-weight: normal;
   font-size: 140%;
 }
@@ -276,7 +284,7 @@ p.news {
 }
 
 #hummingbird_board h2.title {
-  color: #3cf;
+  color: #099;
   margin:16px;
   font-weight: normal;
   font-size: 140%;
@@ -303,7 +311,7 @@ p.news {
 }
 
 .hot-pink {
-  color: #f3c;
+  color: #900;
 }
 
 #pause {
@@ -318,7 +326,7 @@ p.news {
 .fontface {
   font: 14px/12px 'LouisianneRegular', Arial, sans-serif;
   letter-spacing: 0;
-  color: #f3c;
+  color: #900;
   }
   
 
@@ -341,7 +349,7 @@ ul#gallery li{
   height: 47px;
   width: 75px;
   margin: 0 0 5px 5px;
-  border: 1px solid #3cf;
+  border: 1px solid #099;
 }
 img#full_image {
   border:1px solid #333;
