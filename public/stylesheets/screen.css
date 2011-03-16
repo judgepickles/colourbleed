@@ -360,6 +360,8 @@ ul#gallery li{
   border: 1px solid #900;
 }
 img#full_image {
+  width:  820px;
+  height: 464px;
   border:1px solid #333;
   margin: 20px 0;
 }
