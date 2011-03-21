@@ -9,8 +9,6 @@ class PagesController < ApplicationController
   def home
     @title = "Home"
     respond_to(:html)
-    # response.headers['Cache-Control'] = 'public, max-age=300'
-    # render :text => "Rendered at #{Time.now}"
   end
 
   def trailer

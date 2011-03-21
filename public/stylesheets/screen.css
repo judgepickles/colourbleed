@@ -98,19 +98,26 @@ ul#navigation a {
 }
 
 ul#navigation a:hover {
-  color: #900;
+  /*color: #639;*/
+  color: #639;
   background:transparent;
 }
 
 
-div#pnotes ul li{
+/*div#pnotes ul li{
   background: #000;
 }
+*/
 
-div#pnotes ul li:hover{
+/*div#pnotes ul li:hover{
   color: #900;
-  background: #000;
-}
+  background:#111;
+  border-width: 0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+}*/
 
 div#main_content p{
   background: #000;
@@ -119,6 +126,25 @@ div#main_content p{
 #main_content {
   padding: 18px 40px;
   position:relative;
+}
+
+.text_bk {
+  background:#111;
+  border-width: 0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+}
+
+.text_bk:hover {
+  color:#099;
+  background:#111;
+  border-width: 0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
 }
 
 .rounded {
@@ -177,6 +203,33 @@ h1 {
   -khtml-border-radius: 5px;
   padding: 4px 10px 5px;
   margin:0 0 16px;
+}
+
+h1.talent {
+  width: 100px;
+}
+h1.news {
+  width: 85px;
+}
+
+h1.contact{
+  width: 120px;
+}
+
+h1.production_notes {
+  width: 260px;
+}
+
+h1.press_kit {
+  width: 140px;
+}
+
+h1.gallery {
+  width: 120px;
+}
+
+h1.trailer {
+  width: 100px;
 }
 
 a {
@@ -249,8 +302,8 @@ div#main_content div#talent div#credits p#credit_title {
   background:none;
 }
 
-p.news:hover {
-  color: #900;
+p.news {
+  padding: 0 0 0 10px;
 }
 
 #contact {
@@ -271,11 +324,6 @@ p.ht {
   padding: 0 0 3px 9px;
   font-size: 90%;
   width: 230px;
-}
-
-
-p.news {
-  padding: 0 0 0 10px;
 }
 
 #hummingbird_treatment p.ht {
@@ -319,8 +367,9 @@ p.news {
 }
 
 .hot-pink {
-  color: #900;
+  color: #099;
 }
+
 
 #pause {
   background:transparent url(/images/pause.png) center center no-repeat;
@@ -353,11 +402,10 @@ ul#gallery * {
 ul#gallery li{
   list-style: none;
   float: left;
-  background: #000;
   height: 47px;
   width: 75px;
   margin: 0 0 5px 5px;
-  border: 1px solid #900;
+  border: 1px solid #639;
 }
 img#full_image {
   width:  820px;
