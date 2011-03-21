@@ -239,7 +239,7 @@ a {
 
 a:hover {
   background:#000;
-  color:#900;
+  color:#639;
 }
 
 #pnotes {
@@ -325,6 +325,7 @@ p.ht {
   font-size: 90%;
   width: 230px;
 }
+
 
 #hummingbird_treatment p.ht {
   margin:16px;
