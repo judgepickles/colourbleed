@@ -119,17 +119,16 @@ ul#navigation a:hover {
   -khtml-border-radius: 5px;
 }*/
 
-div#main_content p{
+/*div#main_content p {
   background: #000;
 }
-
+*/
 #main_content {
   padding: 18px 40px;
   position:relative;
 }
 
 .text_bk {
-  background:#111;
   border-width: 0;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -140,6 +139,7 @@ div#main_content p{
 .text_bk:hover {
   color:#099;
   background:#111;
+  /*background: transparent*/;
   border-width: 0;
   border-radius: 5px;
   -moz-border-radius: 5px;
