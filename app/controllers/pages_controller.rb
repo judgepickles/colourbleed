@@ -8,8 +8,8 @@ class PagesController < ApplicationController
 
   def home
     @title = "Home"
-    response.headers['Cache-Control'] = 'public, max-age=300'
     respond_to(:html)
+    response.headers['Cache-Control'] = 'public, max-age=200'
   end
 
   def trailer
