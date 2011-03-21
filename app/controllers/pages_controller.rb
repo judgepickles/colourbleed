@@ -1,13 +1,14 @@
 class PagesController < ApplicationController
   layout proc { |controller| controller.request.xhr? ? false : "application" }
 
-  def index
-    response.headers['Cache-Control'] = 'public, max-age=300'
-        render :text => "Rendered at #{Time.now}"
-  end
+  # def index
+  #   response.headers['Cache-Control'] = 'public, max-age=300'
+  #       render :text => "Rendered at #{Time.now}"
+  # end
 
   def home
     @title = "Home"
+    response.headers['Cache-Control'] = 'public, max-age=300'
     respond_to(:html)
   end
 
