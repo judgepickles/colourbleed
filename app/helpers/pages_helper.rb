@@ -17,7 +17,7 @@ module PagesHelper
   # end
   
   def title
-    base_title = "Colourbleed | \"The price you pay for a brighter day\""
+    base_title = "Colourbleed | \"The Price You Pay For A Brighter Day\""
     if @title.nil?
       base_title
     else

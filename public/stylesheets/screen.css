@@ -420,6 +420,7 @@ img#full_image {
   padding: 0 0 20px 0;
 }
 .contact_email {
+  margin: 2px 1px 1px 1px;
   padding: 0 0 20px 0;
   width: 120px;
 }
