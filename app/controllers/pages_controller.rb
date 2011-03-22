@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   layout proc { |controller| controller.request.xhr? ? false : "application" }
 
   def home
-    response.headers['Cache-Control'] = 'public, max-age=300'
+    response.headers['Cache-Control'] = 'public, max-age=100'
     @title = "Home"
     respond_to(:html)
   end
