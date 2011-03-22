@@ -415,14 +415,24 @@ img#full_image {
   margin: 20px 0;
 }
 
-.contact_url {
+p.contact_url a {
   color: #fff;
   width: 120px;
   padding: 0 0 20px 0;
 }
-.contact_email {
+p.contact_email a{
   color: #fff;
   margin: 2px 1px 1px 1px;
-  padding: 0 0 20px 0;
+  padding: 0 0 25px 0;
+  height: 20px;
+  width: 120px;
+}
+
+p.contact_url a:hover {
+  color: #639;
+  width: 120px;
+}
+p.contact_email a:hover{
+  color: #639;
   width: 120px;
 }
