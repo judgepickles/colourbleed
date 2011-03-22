@@ -414,3 +414,7 @@ img#full_image {
   border:1px solid #333;
   margin: 20px 0;
 }
+
+.contact_email {
+  padding: 0 0 20px 0;
+}
