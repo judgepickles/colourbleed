@@ -1,7 +1,7 @@
 module PagesHelper
   def nav_nodes
     [
-      {:label => "Home", :path => root_path, :class => "first"}, 
+      {:label => "Home", :path => home_path, :class => "first"}, 
       {:label => "Trailer", :path => trailer_path},
       {:label => "News", :path => news_path},
       {:label => "Gallery", :path => gallery_path},

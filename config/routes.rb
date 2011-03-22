@@ -2,6 +2,7 @@ Colourbleed::Application.routes.draw do
 
   root :to => "pages#home"
 
+  match '/home',                :to => 'pages#home'
   match '/trailer',             :to => 'pages#trailer'
   match '/news',                :to => 'pages#news'
   match '/gallery',             :to => 'pages#gallery'
