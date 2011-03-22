@@ -416,10 +416,12 @@ img#full_image {
 }
 
 .contact_url {
+  color: #fff;
   width: 120px;
   padding: 0 0 20px 0;
 }
 .contact_email {
+  color: #fff;
   margin: 2px 1px 1px 1px;
   padding: 0 0 20px 0;
   width: 120px;
