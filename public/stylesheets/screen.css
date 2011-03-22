@@ -415,6 +415,11 @@ img#full_image {
   margin: 20px 0;
 }
 
+.contact_url {
+  width: 120px;
+  padding: 0 0 20px 0;
+}
 .contact_email {
   padding: 0 0 20px 0;
+  width: 120px;
 }
