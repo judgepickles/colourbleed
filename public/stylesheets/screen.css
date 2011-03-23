@@ -391,7 +391,7 @@ div.clearfix {
 }
 
 #gallery {
-  padding: 0 0 40px 30px  ;
+  padding: 0 0 40px 30px;
 }
 ul#gallery * {
   padding: 0;
@@ -406,6 +406,7 @@ ul#gallery li{
   width: 75px;
   margin: 0 0 5px 5px;
   border: 1px solid #639;
+  background: #000;
 }
 img#full_image {
   width:  820px;
