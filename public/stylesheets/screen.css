@@ -436,3 +436,9 @@ p.contact_email a:hover{
   color: #639;
   width: 120px;
 }
+
+div#facebook_like{
+  position: absolute;
+  top: 0;
+  left: 0;
+} 

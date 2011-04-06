@@ -8,6 +8,7 @@
     = csrf_meta_tag
   %body
     #page_container
+      #facebook_like= facebook_like
       #header
       %ul#navigation= render :partial => "navigation/link", :collection => nav_nodes
       #main_content= yield
