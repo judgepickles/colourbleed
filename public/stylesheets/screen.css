@@ -449,6 +449,11 @@ div#facebook_like.home_like {
   padding: 0 160px 0 0;
 }
 
+div#facebook_like.pk_like {
+  float: right;
+  padding: 0 476px 0 0;
+}
+
 div#facebook_like.trailer_like{
   top: 340px;
 }
@@ -460,4 +465,3 @@ div#facebook_like.news_like{
 div#facebook_like.contact_like{
   top: 360px;
 }
-
