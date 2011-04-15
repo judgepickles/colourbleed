@@ -1,10 +1,12 @@
 module ApplicationHelper
 
   def facebook_like
-    content_tag :iframe, nil, :src => "http://www.facebook.com/plugins/like.php?href=#{CGI::escape(request.url)}&layout=button_count&show_faces=true&width=80&action=like&font=arial&colorscheme=light&height=25",
-                :scrolling => 'no', 
-                :frameborder => '0', 
-                :allowtransparency => true, 
+    content_tag :iframe, nil, :src => "http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FColourBleed%2F177383978978025&amp;width=292&amp;colorscheme=dark&amp;show_faces=false&amp;stream=false&amp;header=false&amp;height=62",
+                :scrolling => 'no',
+                :overflow => 'hidden', 
+                :frameborder => '0',
+                :style => 'border:none',
+                :allowtransparency => true,
                 :id => :facebook_like
   end
 end

@@ -438,7 +438,9 @@ p.contact_email a:hover{
 }
 
 div#facebook_like{
+  background-color: transparent;
+  height: 45px;
+  left: -150px;
   position: absolute;
   top: 0;
-  left: 0;
 } 
