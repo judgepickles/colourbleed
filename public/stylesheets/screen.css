@@ -137,8 +137,8 @@ ul#navigation a:hover {
 }
 
 .text_bk:hover {
-  color:#099;
-  background:#111;
+  /*color:#099;*/
+  /*background:#111;*/
   /*background: transparent*/;
   border-width: 0;
   border-radius: 5px;
@@ -437,10 +437,27 @@ p.contact_email a:hover{
   width: 120px;
 }
 
-div#facebook_like{
+div#facebook_like {
   background-color: transparent;
   height: 45px;
-  left: -150px;
-  position: absolute;
-  top: 0;
-} 
+  /*left: 365px;*/
+}
+
+div#facebook_like.home_like {
+  top: 240px;
+  float: right;
+  padding: 0 160px 0 0;
+}
+
+div#facebook_like.trailer_like{
+  top: 340px;
+}
+
+div#facebook_like.news_like{
+  top: 300px;
+}
+
+div#facebook_like.contact_like{
+  top: 360px;
+}
+
