@@ -257,8 +257,9 @@ a:hover {
 
 #trailer {
   margin:0 auto;
-  padding: 0 0 40px 0;
-  width: 400px;
+  padding: 0 10px 40px 0;
+  width: 510px;
+  height: 325px;
 }
 
 #trailer p {
