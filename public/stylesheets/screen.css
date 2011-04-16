@@ -439,29 +439,12 @@ p.contact_email a:hover{
 
 div#facebook_like {
   background-color: transparent;
-  height: 45px;
+  height: 65px;
   /*left: 365px;*/
 }
 
 div#facebook_like.home_like {
   top: 240px;
   float: right;
-  padding: 0 160px 0 0;
-}
-
-div#facebook_like.pk_like {
-  float: right;
-  padding: 0 476px 0 0;
-}
-
-div#facebook_like.trailer_like{
-  top: 340px;
-}
-
-div#facebook_like.news_like{
-  top: 300px;
-}
-
-div#facebook_like.contact_like{
-  top: 360px;
+  padding: 0 165px 0 0;
 }
