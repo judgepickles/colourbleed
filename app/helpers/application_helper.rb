@@ -9,4 +9,8 @@ module ApplicationHelper
                 :allowtransparency => true,
                 :id => :facebook_like
   end
+
+  def festival
+    image_tag("rushes_soho.png", :size => "225x110")
+  end
 end
