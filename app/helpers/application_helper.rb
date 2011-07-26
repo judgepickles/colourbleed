@@ -10,7 +10,12 @@ module ApplicationHelper
                 :id => :facebook_like
   end
 
-  def festival
+  def festival_rushes
     image_tag("rushes_soho.png", :size => "225x110")
   end
+
+  def festival_hollyshorts
+    image_tag("hollyshorts.png", :size => "225x110")
+  end
+
 end
